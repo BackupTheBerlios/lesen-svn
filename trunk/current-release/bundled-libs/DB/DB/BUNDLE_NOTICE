@@ -1,0 +1,48 @@
+- Replace:
+common.php
+require_once 'PEAR.php';
+require_once dirname(__FILE__) . '/../../PEAR.php';
+
+dbase.php
+require_once 'DB/common.php';
+require_once dirname(__FILE__) . '/../DB/common.php';
+
+fbsql.php
+require_once 'DB/common.php';
+require_once dirname(__FILE__) . '/../DB/common.php';
+
+ibase.php
+require_once 'DB/common.php';
+require_once dirname(__FILE__) . '/../DB/common.php';
+
+ifx.php
+require_once 'DB/common.php';
+require_once dirname(__FILE__) . '/../DB/common.php';
+
+msql.php
+require_once 'DB/common.php';
+require_once dirname(__FILE__) . '/../DB/common.php';
+
+mssql.php
+require_once 'DB/common.php';
+require_once dirname(__FILE__) . '/../DB/common.php';
+
+mysqli.php
+require_once 'DB/common.php';
+require_once dirname(__FILE__) . '/../DB/common.php';
+
+mysql.php
+require_once 'DB/common.php';
+require_once dirname(__FILE__) . '/../DB/common.php';
+
+oci8.php
+
+odbc.php
+
+pgsql.php
+
+sqlite.php
+
+storage.php
+
+sybase.php

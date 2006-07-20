@@ -1,0 +1,17 @@
+2006-03-17  Rodrigo Lazo Paz  <rlazo.paz@gmail.com>
+
+	* index.php: finished migration of index. TODO: recreate leftnav
+	index
+
+2006-03-16  Rodrigo Lazo Paz  <rlazo.paz@gmail.com>
+
+	* templates/courseindex.tpl: 
+
+	* index.php: migrated to the new model: paper and author main
+	page; paper, course and author index
+	
+
+2006-03-08  Rodrigo Lazo Paz  <rlazo.paz@gmail.com>
+
+	* index.php: Changing database settings to use PEAR::DB
+

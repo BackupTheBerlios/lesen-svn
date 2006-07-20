@@ -1,0 +1,317 @@
+/* This css defines the page layout */
+
+body {
+background-color: #E5DCB2;
+}
+
+/*------------------------------------------------------------------* 
+** CONTAINER 
+**------------------------------------------------------------------*/
+#container 
+{
+  width: 100%;
+  margin: 10px auto;
+  margin-top: -0.5em;
+  padding-top: 0em;
+/*  border: 1px solid gray;*/
+  line-height: 130%;
+  background-color: #FFF;
+  color: #111;
+  font-family: arial, serif, sans-serif;	
+  font-size: 85%;
+  }
+
+/*------------------------------------------------------------------* 
+** MENU 
+**------------------------------------------------------------------*/
+#menu 
+{
+  text-align: right;
+  font-size: small;
+  color: #fff;
+  background-color: #000;
+  }
+
+#menu ul 
+{ 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+#menu ul li 
+{
+  display: inline;
+  }
+
+#menu ul li a
+{
+  text-decoration: none;
+  padding: .2em .5em;
+  color: #ffb844;
+  font-family: sans;
+  font-size: 75%;
+  }
+
+#menu ul li a:hover
+{ 
+  color: #fff;
+  }
+
+
+/*------------------------------------------------------------------* 
+** HEADER 
+**------------------------------------------------------------------*/
+#header 
+{
+  padding: 0em;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  background-color: #fff;
+  }
+
+#header h1
+{
+  padding: 0;
+  margin: 0;
+  }
+
+/*------------------------------------------------------------------* 
+** STATUS BAR 
+**------------------------------------------------------------------*/
+#statusbar 
+{
+  border-bottom: 1px solid black;
+  font-size: small;
+  color: #fff;
+  background-color: #A52A2A;
+  font-size: 80%
+  font-weight: bold;
+  }
+
+#statusbar ul 
+{ 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 1em;
+  padding: 0.1em;
+  font-size: 80%;
+  }
+
+#statusbar ul li 
+{
+  display: inline;
+  }
+
+#statusbar ul li a
+{
+  text-decoration: none;
+  padding: .2em .3em;
+  color: #fff;
+  font-weight: bold;
+  }
+
+/*------------------------------------------------------------------* 
+** LEFT NAVIGATION BAR
+**------------------------------------------------------------------*/
+#leftnav 
+{
+  float: left;
+  width: 175px;
+  margin: 0;
+  margin-top: 0em;
+  padding: 0em;	
+  background-color: #FFF8E9;
+  font-size: 90%;
+  }
+
+#leftnav h3 
+{
+  color: #fff;
+  padding: 0em;
+  padding-left: 2em;
+  margin: 0.1em;
+  background-color: #036;
+  font-size: 85%;
+  font-family: verdana;
+  font-weight: bold;  
+  height: 20px;
+  }
+
+#leftnav div 
+{
+  border-top: 1px solid white;
+  margin: 0;
+  padding-left: 0em;
+  }
+
+#leftnav p, h1, h2 
+{
+  margin: 0 0 0.5em 0;
+  }
+
+#leftnav ul 
+{
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  margin-top: 0em;
+  margin-left: 0em;
+  list-style: none;
+  margin-bottom: 0;
+  font-size: 85%;
+  }
+
+#leftnav ul li a 
+{
+  margin-left: 0em;
+  padding-left: 3em;
+  margin-top: 0.1em;
+  text-decoration: none;
+  color: #000;
+  background-image: url(../img/arrow.gif);
+  background-repeat: no-repeat;
+  background-position: 0.8em;
+  display: block;
+  background-color: #F3F3F3;
+  border: 1px solid;
+  border-color: #DDD #DDD #BBB #BBB;
+  padding-bottom: 0em;
+  height: 20px;
+  font-family: verdana;
+}
+
+#leftnav ul li a:hover 
+{
+  color: #049;
+  background-color: #e8e8e8;
+  background-position: 1.5em;
+  }
+
+/*------------------------------------------------------------------* 
+** CONTENT
+**------------------------------------------------------------------*/
+#content 
+{
+  margin-left: 170px;
+  padding: 0.6em;
+  padding-top: 0em;
+  margin-top: 0em;
+  padding-right: 1.0em;
+  text-align: justify;
+  background: #fff;
+  line-height: 135%;
+  }
+
+#content div 
+{
+  /*background: #fff url(../img/informatica.jpg) no-repeat;
+     background-position: bottom right;*/
+  }
+
+#content p, h1, h2 
+{
+  margin: 0 0 0em 0em;
+}
+
+
+#content #title 
+{ 
+  margin-top: 0;
+  padding-top: 0;
+  background-color: #dcd7bb; 
+  border-bottom: 1px solid black;
+}
+
+#content #title h3 
+{
+  padding-top: 0.5em;
+  padding-left: 0.8em;
+  padding-right: 0.5em;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  line-height: 110%;
+  font-size: 98%;
+  color: #000;
+  }
+
+#content h4 
+{ 
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: verdana;
+  font-size: 95%;
+  color: #000;
+  }
+
+#content p.index
+{ 
+  font-size: 85%;
+  font-style: italic;
+  color: #111;
+  }
+
+#content p.keyword
+{ 
+  font-style: italic;
+  padding-left: 2em;
+  }
+
+#content p.index a
+{ 
+/*  font-weight: bold;*/
+  color: #111;
+ }
+
+#content ul
+{ 
+  margin: 0;
+  padding-left: 2em;
+}
+
+#content li
+{ 
+  list-style-type: square;
+  }
+
+#content a
+{
+  text-decoration: none;
+  color: #a27b11; /*1a488e; /*265aa7; A52A2A;*/
+  font-size: 100%;
+  font-family: sans;
+  }
+
+#content a:hover
+{ 
+  text-decoration: underline;
+ }
+
+/* #content mailto */
+/* {  */
+/*   text-decoration: none; */
+/*   color: #000; */
+/*  } */
+
+/*------------------------------------------------------------------* 
+** FOOTER
+**------------------------------------------------------------------*/
+#footer 
+{
+  clear: both;
+  margin: 0;
+  padding: 0.5em;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: #DDD;
+  color: #333;
+  text-align: center;
+  font-size: 65%;
+  line-height: 63%;
+  }
+
+#footer p {
+margin: 0.5em;
+padding-top: 0;
+}

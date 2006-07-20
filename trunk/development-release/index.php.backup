@@ -1,0 +1,11 @@
+<?php
+include_once('config.php');
+
+require_once(SMARTY_DIR.'Smarty.class.php');
+include_once('include/varfunctions.inc.php');
+include_once('include/dbfunctions.inc.php');
+
+$smarty = new Smarty();
+$smarty->assign('leftnav', $leftnav);
+$smarty->display('index.tpl');
+?>

@@ -1,0 +1,20 @@
+.articulo
+{ 
+  border: 1px solid gray;
+  padding: 6px;
+  }
+
+.articulo .titulo
+{ 
+  background-color: #fc5f66;
+  padding: 3px;
+  font-size: 110%;
+  color: white;
+  font-weight: bold;
+ }
+
+.articulo .autores
+{ 
+  font-style: italic;
+  margin-bottom: 10px;
+ }
