@@ -5,7 +5,7 @@ include_once('include/varfunctions.inc.php');
 //require_once('include/dbfunctions.inc.php');
 require_once('include/lesen_core.inc.php');
 include_once('include/lesen_ui.inc.php');
-
+//nonex
 require_once('bundled-libs/MDB2/MDB2.php');
 
 $smarty = new Smarty();
